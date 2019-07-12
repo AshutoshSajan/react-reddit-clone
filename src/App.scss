@@ -227,6 +227,7 @@
           }
           .para {
             font-size: 18px;
+            word-break: break-word;
           }
 
           .Comments-sec {
@@ -335,7 +336,7 @@
         }
 
         .view-mod {
-          margin-left: 150px;
+          margin-left: 35%;
           margin-top: 20px;
           border-radius: 3px;
           color: dodgerblue;
@@ -356,6 +357,7 @@
     .terms {
       display: flex;
       padding: 10px;
+      flex-wrap: wrap;
       justify-content: space-between;
       div {
         margin: 10px;
